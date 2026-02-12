@@ -46,10 +46,11 @@ While reviewing Instagram more carefully, I discovered a linked account named **
 
 Opening the link redirected to a Paste page where the flag was written in plain text.
 
-## Flag
+## **Flag**
 
-RAKSHNA{f0ll0w_th3_d1g1t4l_f00tpr1nt_b4ck_t0_m3}
+**RAKSHNA{f0ll0w_th3_d1g1t4l_f00tpr1nt_b4ck_t0_m3}**
 
+<img width="1896" height="856" alt="Screenshot 2026-02-10 204343" src="https://github.com/user-attachments/assets/6e1088a1-859a-4799-894b-2d78e187d301" />
 
 ## Key Takeaways
 
@@ -63,6 +64,10 @@ RAKSHNA{f0ll0w_th3_d1g1t4l_f00tpr1nt_b4ck_t0_m3}
 
 **Category:** Forensics  
 **Flag Format:** RAKSHNA{...}
+
+<img width="1416" height="715" alt="Screenshot 2026-02-10 205516" src="https://github.com/user-attachments/assets/b83710fb-4014-4772-8a95-3c48c0de84c6" />
+
+<img width="1418" height="724" alt="Screenshot 2026-02-10 205621" src="https://github.com/user-attachments/assets/dc21e3d8-5a16-478c-9fde-4e1f1dcbb9d1" />
 
 ## Challenge Description
 
@@ -86,6 +91,9 @@ A valid PNG file begins with the following 8-byte signature:
 
 89 50 4E 47 0D 0A 1A 0A
 
+<img width="901" height="312" alt="Screenshot 2026-02-10 210809" src="https://github.com/user-attachments/assets/e676ea03-0575-4d33-9074-634acfd25458" />
+
+
 Steps followed:
 
 1. Opened the file in HxD  
@@ -105,6 +113,7 @@ These mistakes highlighted how sensitive file headers are and how a single incor
 
 RAKSHNA{h3xdump_h3r0_2026}
 
+<img width="1420" height="730" alt="Screenshot 2026-02-10 211454" src="https://github.com/user-attachments/assets/90adf95d-1a36-44b0-9985-4781dd3b1c28" />
 
 ## Key Takeaways
 
@@ -139,6 +148,9 @@ My early attempts included:
 
 These attempts did not produce meaningful results.
 
+<img width="1916" height="871" alt="Screenshot 2026-02-10 213021" src="https://github.com/user-attachments/assets/df2a9a8a-a8ac-4b42-a5dd-f4e9dc20990b" />
+<img width="1915" height="844" alt="Screenshot 2026-02-10 214024" src="https://github.com/user-attachments/assets/67e7f043-a8ce-4248-9b34-c32e30fabb66" />
+
 ## Correct Method
 
 After carefully re-reading the challenge and experimenting systematically, I determined the correct decoding sequence:
@@ -148,11 +160,13 @@ After carefully re-reading the challenge and experimenting systematically, I det
 3. Identify the final output as ROT13 and decode it  
 
 Applying the steps in the correct order revealed the flag.
+<img width="1541" height="833" alt="Screenshot 2026-02-10 215616" src="https://github.com/user-attachments/assets/0e92ccc5-278a-4841-be69-ee4e6302022f" />
 
 ## Flag
 
 RAKSHNA{crypt0_1s_th3_w4y_0nly}
 
+<img width="1890" height="869" alt="Screenshot 2026-02-10 215735" src="https://github.com/user-attachments/assets/765f7cf3-ad2e-4607-8a00-0d0677f77bc7" />
 
 ## Key Takeaways
 
@@ -193,6 +207,11 @@ Combining the three parts reconstructed the complete flag.
 
 RAKSHNA{alw4ys_ch3ck_th3_s0urc3_cod3}
 
+<img width="1892" height="884" alt="Screenshot 2026-02-10 220305" src="https://github.com/user-attachments/assets/9d0686d5-65b5-4717-8425-9c5d6730a088" />
+
+<img width="1918" height="877" alt="Screenshot 2026-02-10 220448" src="https://github.com/user-attachments/assets/7dc9cbf6-aa72-4475-87ab-4b164c10eec4" />
+
+<img width="1326" height="626" alt="Screenshot 2026-02-10 220602" src="https://github.com/user-attachments/assets/fc5c7814-cbf9-493a-9c9e-15b3ed12ea42" />
 
 ## Key Takeaways
 
